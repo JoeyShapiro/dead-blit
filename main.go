@@ -74,7 +74,7 @@ func BitBlt(hdc HDC, x int, y int, cx int, cy int, hdcSrc HDC, x1 int, y1 int, r
 func main() {
 	fmt.Println("hello world")
 	size := 1
-	n := 1000
+	n := 10
 	offset := 50
 
 	whdc, err := GetDC(NULL)
